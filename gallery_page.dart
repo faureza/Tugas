@@ -12,12 +12,16 @@ class GalleryPage extends StatelessWidget {
         children: [
           // Tambahkan foto-foto di sini
           Container(
-            color: Colors.orange,
-            margin: EdgeInsets.all(4.0),
+            child: Image.asset(
+            'images/ayam-geprek.png',
+            width: 100,
+            height: 100,)
           ),
           Container(
-            color: Colors.green,
-            margin: EdgeInsets.all(4.0),
+            child: Image.asset(
+            'images/5-makanan-enak-dari-indonesia-dan-malaysia-yang-terkenal-enak-5.jpeg',
+            width: 100,
+            height: 100,)
           ),
           // Tambahkan foto-foto lainnya di sini
         ],
